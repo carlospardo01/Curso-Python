@@ -1,5 +1,5 @@
 El proyecto lo realice de la siguiente manera:
-1. Empecé a escribir el código para la toma de datos y de una vez coloque los comentarios con un # para entender lo que trataba cada sección de la calculadora
+1. Empecé a escribir el código para la toma de datos y de una vez coloqué los comentarios con un # para entender lo que trataba cada sección de la calculadora
 3. Hice la fórmula para calcular la masa muscular, también detallé con # el comentario de lo que era esa función
 4. Imprimí los datos y los resultados, pero no me salió como quería
 5. Comprobé la formula porque no me estaba calculando, porque digité mal y no me estaba funcionando la calculadora.
