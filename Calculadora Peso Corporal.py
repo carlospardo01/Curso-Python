@@ -1,4 +1,4 @@
-# Solicitar datos al usuario con validación directa
+# Solicitar datos al usuario y hacer una validación
 nombre = input("Introduce tu nombre: ").strip()
 while not nombre:
     nombre = input("El nombre no puede estar vacío. Introduce tu nombre: ").strip()
@@ -11,7 +11,7 @@ apellido2 = input("Introduce tu segundo apellido: ").strip()
 while not apellido2:
     apellido2 = input("El segundo apellido no puede estar vacío. Introduce tu segundo apellido: ").strip()
 
-# Validar edad como número entero
+# Validar edad (número entero)
 while True:
     try:
         edad = int(input("Introduce tu edad: "))
@@ -19,7 +19,7 @@ while True:
     except ValueError:
         print("Por favor, introduce un número entero válido.")
 
-# Validar peso como número flotante
+# Validar peso (número flotante)
 while True:
     try:
         peso = float(input("Introduce tu peso en kg: "))
@@ -27,7 +27,7 @@ while True:
     except ValueError:
         print("Por favor, introduce un número válido para el peso.")
 
-# Validar estatura como número flotante
+# Validar estatura (número flotante)
 while True:
     try:
         estatura = float(input("Introduce tu estatura en centímetros: ")) / 100  # Convertir a metros
