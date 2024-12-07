@@ -1,4 +1,4 @@
-# Solicitar datos al usuario y hacer una validación
+# Solicitar datos al usuario y hacer una validación, también se quitan los espacios en blanco
 nombre = input("Introduce tu nombre: ").strip()
 while not nombre:
     nombre = input("El nombre no puede estar vacío. Introduce tu nombre: ").strip()
